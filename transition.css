@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.clearfix::after{
+    display: block;
+    clear: both;
+    content:"";
+}
+.postion {
+    width: 80% ;
+    margin: auto;
+}
+.rotate-one {
+    float: left;
+    margin: 12px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #E3E2E3;
+    background-color:  #FEFEFE;
+    position: relative;
+}
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: #70C3E8;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    transition: 1s ease-in;
+    margin: 30px;
+    
+}
+/* =============BOX CSS STYLE============== */
+.box1:hover{
+    transform: rotate(45deg);
+}
+.box2:hover{
+    transform: rotateX(45deg);
+}
+.box3:hover{
+    transform: rotateY(45deg);
+}
+.box4:hover{
+    transform: rotateZ(90deg);
+}
+.box5:hover{
+    transform: scale(2);
+}
+.box6:hover{
+    transform: scaleX(2);
+}
+.box7:hover{
+    transform: scaleY(2);
+}
+.box8:hover{
+    transform: skew(45deg,45deg);
+}
+.box9:hover{
+    transform: skewX(45deg);
+}
+.box10:hover{
+    transform: skewY(45deg);
+}
+.box11:hover{
+    transform: translate(45px);
+}
+.box12:hover{
+    transform: translateX(45px);
+}
+
+.box13:hover{
+    transform: translateY(45px);
+}
+.box14:hover{
+    transform: matrix(2,2,0,2,45,0);
+}
+.box15:hover{
+    transform: rotateX(90deg);
+}
+.box16:hover{
+    transform: rotateY(45deg);
+}
+.box17:hover{
+    transform: rotate(45deg);
+    transform-origin: 100% 0 0;
+}
+
+.box18:hover{
+    transform: rotate(45deg);
+    transform-origin: 0 100% 0;
+}
+
+.box19:hover{
+    transform: rotateX(45deg);
+    transform-origin: 0 100% 0;
+}
+
+.box20:hover{
+    transform: rotateX(45deg);
+    transform-origin: 100% 0 0;
+}
+.box21:hover{
+    transform: rotateY(45deg);
+    transform-origin: 0 100% 0;
+}
+.box22:hover{
+    transform: rotateY(45deg);
+    transform-origin: 100% 0 0;
+}
+.box23:hover{
+    transform: scale(2);
+    transform-origin: 100% 0 0;
+}
+
+.box24:hover{
+    transform: scale(2);
+    transform-origin: 0 100% 0;
+}
+
+.box25:hover{
+    transform: scaleX(2);
+    transform-origin: 100% 0 0;
+}
+
+.box26:hover{
+    transform: scaleX(2);
+    transform-origin: 0 100% 0;
+}
+.box27:hover{
+    transform: scaleY(2);
+    transform-origin: 100% 0 0;
+}
+.box28:hover{
+    transform: scaleY(2);
+    transform-origin: 0 100% 0;
+}
+/* =============BOX CSS STYLE============== */
+
+
+/* ============================== */
+.perspective{
+    perspective: 100px;
+   
+}
+.perspective1{
+    perspective: 200px;
+   
+}
+p.content {
+    text-align: center;
+    margin-top: -15px;
+}
+.box-center {
+    margin: auto;
+    width: 26%;
+}
+.box-model {
+    margin-top: 15px;
+}
+.box-content {
+    font-size: 12px;
+}
+h1 {
+    padding: 20px;
+}
+/* =========================================== */
